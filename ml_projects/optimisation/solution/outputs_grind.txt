@@ -1,0 +1,128 @@
+jaccard_weighted
+SCORE:  1.0
+Accuracy:  0.9188141391106043
+BEST PARAMS:  {'criterion': 'entropy', 'min_samples_split': 2}
+              precision    recall  f1-score   support
+
+           1       0.92      0.92      0.92     84876
+           2       0.93      0.93      0.93    113170
+           3       0.91      0.91      0.91     14329
+           4       0.81      0.82      0.82      1096
+           5       0.78      0.78      0.78      3708
+           6       0.85      0.84      0.84      6961
+           7       0.93      0.92      0.93      8265
+
+    accuracy                           0.92    232405
+   macro avg       0.88      0.87      0.88    232405
+weighted avg       0.92      0.92      0.92    232405
+
+f1_weighted
+SCORE:  1.0
+Accuracy:  0.9188055334437727
+BEST PARAMS:  {'criterion': 'entropy', 'min_samples_split': 2}
+              precision    recall  f1-score   support
+
+           1       0.92      0.92      0.92     84876
+           2       0.93      0.93      0.93    113170
+           3       0.91      0.91      0.91     14329
+           4       0.81      0.82      0.82      1096
+           5       0.77      0.78      0.78      3708
+           6       0.85      0.84      0.84      6961
+           7       0.93      0.92      0.93      8265
+
+    accuracy                           0.92    232405
+   macro avg       0.88      0.87      0.87    232405
+weighted avg       0.92      0.92      0.92    232405
+
+top_k_accuracy
+SCORE:  0.997693671365381
+Accuracy:  0.8946537294808632
+BEST PARAMS:  {'criterion': 'log_loss', 'min_samples_split': 30}
+              precision    recall  f1-score   support
+
+           1       0.89      0.90      0.89     84876
+           2       0.91      0.91      0.91    113170
+           3       0.87      0.90      0.88     14329
+           4       0.83      0.78      0.80      1096
+           5       0.74      0.67      0.70      3708
+           6       0.81      0.76      0.78      6961
+           7       0.91      0.89      0.90      8265
+
+    accuracy                           0.89    232405
+   macro avg       0.85      0.83      0.84    232405
+weighted avg       0.89      0.89      0.89    232405
+
+precision_weighted
+SCORE:  1.0
+Accuracy:  0.9191368516167897
+BEST PARAMS:  {'criterion': 'log_loss', 'min_samples_split': 2}
+              precision    recall  f1-score   support
+
+           1       0.92      0.92      0.92     84876
+           2       0.93      0.93      0.93    113170
+           3       0.91      0.91      0.91     14329
+           4       0.82      0.82      0.82      1096
+           5       0.78      0.78      0.78      3708
+           6       0.85      0.84      0.84      6961
+           7       0.93      0.92      0.93      8265
+
+    accuracy                           0.92    232405
+   macro avg       0.88      0.88      0.88    232405
+weighted avg       0.92      0.92      0.92    232405
+
+recall_weighted
+SCORE:  1.0
+Accuracy:  0.9187280824422882
+BEST PARAMS:  {'criterion': 'log_loss', 'min_samples_split': 2}
+              precision    recall  f1-score   support
+
+           1       0.92      0.92      0.92     84876
+           2       0.93      0.93      0.93    113170
+           3       0.91      0.91      0.91     14329
+           4       0.82      0.82      0.82      1096
+           5       0.77      0.78      0.78      3708
+           6       0.85      0.84      0.84      6961
+           7       0.93      0.93      0.93      8265
+
+    accuracy                           0.92    232405
+   macro avg       0.88      0.88      0.88    232405
+weighted avg       0.92      0.92      0.92    232405
+
+roc_auc_ovr_weighted
+SCORE:  0.9950334232928432
+Accuracy:  0.8943998623093307
+BEST PARAMS:  {'criterion': 'entropy', 'min_samples_split': 30}
+              precision    recall  f1-score   support
+
+           1       0.89      0.90      0.89     84876
+           2       0.91      0.91      0.91    113170
+           3       0.87      0.90      0.88     14329
+           4       0.82      0.78      0.80      1096
+           5       0.74      0.67      0.70      3708
+           6       0.81      0.76      0.78      6961
+           7       0.91      0.89      0.90      8265
+
+    accuracy                           0.89    232405
+   macro avg       0.85      0.83      0.84    232405
+weighted avg       0.89      0.89      0.89    232405
+
+roc_auc_ovr
+SCORE:  0.9978230380176212
+Accuracy:  0.8946408209806157
+BEST PARAMS:  {'criterion': 'log_loss', 'min_samples_split': 30}
+              precision    recall  f1-score   support
+
+           1       0.89      0.90      0.89     84876
+           2       0.91      0.91      0.91    113170
+           3       0.87      0.90      0.88     14329
+           4       0.83      0.78      0.80      1096
+           5       0.74      0.67      0.70      3708
+           6       0.81      0.76      0.78      6961
+           7       0.91      0.89      0.90      8265
+
+    accuracy                           0.89    232405
+   macro avg       0.85      0.83      0.84    232405
+weighted avg       0.89      0.89      0.89    232405
+
+Loss function with max score:  ['jaccard_weighted', {'criterion': 'entropy', 'min_samples_split': 2}]
+Loss function with max accuracy:  ['precision_weighted', {'criterion': 'log_loss', 'min_samples_split': 2}]
